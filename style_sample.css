@@ -1,0 +1,394 @@
+
+
+#nav1 {
+  background-image:url('http://astro.cornell.edu/img/mids/featured_art_solarsystemswater.jpg');
+  background-attachment: relative;
+  background-size: cover;
+  background-color: green;
+  background-repeat: no-repeat;
+  display: block;
+  width:100%;
+  height:500px;
+  z-index:100;}
+
+#nav-btn {
+ text-shadow: 1px 1px 2px red , 0 0 25px orange, 0 0 5px orange;
+ list-style-type: none;
+ margin: 3px;
+ padding: 2px;
+ width: auto;
+}
+
+/* style this for background-info */
+nav p{
+ float:right;
+ width: 50%;
+ height: auto;
+ color:#ADF;
+ margin-top: 20%;
+ margin-right:5%;
+ margin-bottom:5%;
+ }
+/* nav button slide-down CSS start */
+
+nav ul #nav-drop{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+nav ul li a{
+background-color:transparent;}
+nav li { 
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px orange;
+    list-style-type: none;
+    margin: 3px;
+    padding: 2px;
+    width: 12%;
+    height: auto;
+    font-size:22px;
+    float: left;
+    text-align:center;
+}
+
+nav li a {
+    width: 135px;
+    height:auto;
+    display: block;
+    color: white;
+    text-align: left;
+    font-size:0.8em;
+    padding: 4px 6px;
+    text-decoration: none;
+}
+
+nav #nav-btn:hover{
+ background-color: #ADF;
+ box-shadow: 3px 3px 1.5px blue;
+}
+
+nav p:hover{
+ margin-top: 15%;
+ padding-bottom:3%;
+ color: white;
+ box-shadow: 3px 3px 1.5px black;
+ 
+}
+nav li a:hover {
+    box-shadow: 1.5px 1.5px 1.5px black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.dropdown-content {
+  display:none;
+  position: relative;
+  width:inherit;}
+
+.dropdown:hover .dropdown-content{
+  display:block;
+  position:relative;}
+
+/* nav button slide-down CSS end */
+
+
+
+
+
+/* li {
+    
+    width:120px;
+    border-radius: 5px;
+    height:30px;
+    background-color: red;
+    transition: background-color 0.5s ease;
+    display:inline;
+    }
+
+.dropdown  {
+  padding: 8px 10px;
+  text-align: center;
+  border: 2px;}
+
+
+
+a .dropdown-content {
+  position: relative;
+  display:block;
+  background-color:pink;} */
+
+#dropdown-btn {
+  display: block;}
+
+#dropdown-btn:hover p.dropdown {
+  display: block;}
+
+p .dropdown{
+ position:relative;
+ display:none;}
+
+
+.dropdown:hover p.dropdown{
+  display:block;
+  position:relative;}
+
+.hover-test,.hover-test1 {
+    border-radius: 5px;
+    background-color: #ABCDEF;
+    transition: background-color 0.5s ease;
+    display:inline-block;}
+
+
+/* 
+.hover-test,.hover-test1 {
+ border-radius: 5px;
+    background-color: #ABCDEF;
+    transition: background-color 0.5s ease;
+    display:inline-block;
+    height:20px;
+    padding:2px;
+    border:1px solid #ccc;
+    margin-top:10px;
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+    cursor:pointer; 
+}*/
+
+.drop_events{
+ font-family:Roboto,serif;
+ font-size:1.25em;
+ text-align: left;
+ display:inline;
+    position:relative;
+    right:-25px;
+    width:150px;
+    height:20px;
+	font-family:arial,sans-serif;
+    font-size:14px;
+	color:#ffffff;
+    background:#cc0000;
+	text-decoration:none;
+    -moz-border-bottom-left-radius:5px;
+    -moz-border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+
+
+
+/*  sections CSS part - start */
+
+.section1 {
+     height:auto;
+     width: 100%;
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+    background-image:url('');
+    background-size:cover;
+    background-color: #FFF;
+  
+}
+
+.section2 {
+      height: auto;
+     width: 100%;
+     padding : 0.2% 6% 0.2% 2% ;
+     margin: 20px 0px;
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+     background-image:url('');
+   background-attachment: fixed;
+    background-size: cover;
+    background-color:white;
+}
+
+div .section2{
+height:30%;
+width:100%;}
+.section3 {
+     height:700px;
+     width: 100%;
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+     background-image:url('http://www.slate.com/content/dam/slate/blogs/bad_astronomy/2012/12/best_of_2012_photos/SDO_arch.jpg.CROP.article920-large.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color: blue;
+    z-index:1;
+}
+
+.section3 li {
+   color:white;
+}
+
+.section4 {
+  height:auto;
+  width: 100%;
+  padding: 4em 0;
+  border-top: 1px solid #999999;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  color: #999999;
+  text-align:left;
+  background-color: red;
+  z-index:3;
+}
+
+/*  sections CSS part - end */
+
+/* event-dropdown part -start */
+
+.event-btn {
+ background-color: green;
+ display:block;
+}
+
+#event-desc  {
+ display:none;
+ position:relative;
+}
+
+.event-btn:hover #event-desc{
+display:block;
+position:relative;
+}
+
+/* event-dropdown part -end*/
+
+
+.active {
+    background-color:red;
+}
+#last_year_events{
+ -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+    cursor:pointer;
+}
+
+.header{
+    height:30px;
+    width:100%;
+    display: inline-block;
+    text-align: right;
+}
+/* manager,convener CSS */
+
+.single {
+ display:block;
+ padding: 5px 20px;
+ 
+}
+li .single {
+width:50%;
+height:auto;
+display:block;
+}
+
+li .double {
+ display:block;
+ padding: 5px 20px;
+ 
+}
+img li .double {
+width:100px;
+height:auto;
+display:block;
+}
+/* footer */
+
+footer{
+width:100%;
+height:auto;
+display:inline-block;
+background-color:white;}
+
+form {
+width:50%;}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#boxshadow {
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+}
+
+/* Make the image fit the box */
+#boxshadow img {
+    width: 100%;
+    border: 1px solid #8a4419;
+    border-style: inset;
+}
+
+#boxshadow::after {
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);                
+    width: 70%; 
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form-test1 {
+    width:50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float:right;
+}
+.form-test {
+    width:49%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0px 3px;
+    float:left;
+}
+
+.books .event-btn {
+background-color:transparent;
+}
+
+.event-btn a{
+justify-content:bottom;}
+ 
+
